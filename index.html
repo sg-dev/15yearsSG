@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html>
+<title>Resilience and Performance of Networked Systems</title>
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg { background-image: url("title-lightgrey-zoom.jpg"); background-color: light-yellow; background-blend-mode: lighten; }
+.bgimg2 { background-image: url("title-lightgrey-zoom.jpg"); }
+</style>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-top w3-text-red w3-center">
+    <h2 class="w3-center"></br><b>Resilience and Performance of Networked Systems</b></h2>
+    <h4 class="w3 w3-text-black"><br><b>
+	An interdisciplinary symposium celebrating 15 years of <a href="https://www.sg.ethz.ch">Systems Design at ETH Z&uuml;rich</a></b></h4>
+    <h4 class="w3 w3-text-black"><br><b>
+      January 15-16, 2020</b></h4>
+    <h4 class="w3 w3-text-black"><b>
+      ETH Z&uuml;rich, Main Building, D 3.2</b></h4>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small w3-wide w3-center">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#agenda" style="width:45%" class="w3-bar-item w3-button w3-hover-black">Program</a>
+    <a href="#rsvp" style="width:54%" class="w3-bar-item w3-button w3-hover-red">Registration</a>
+  </div>
+</div>
+
+<!-- Agenda 
+<h1 class="w3-center w3-text-red"><b>Program</b></h1>
+-->
+
+
+ <div class="w3-container w3-padding-64 w3-Indigo w3-grayscale-min" id="agenda">
+    <div class="w3-content">
+
+      <table class="w3-table" style="width: 80%; margin:auto;" >
+	
+	<tr class="w3-border">
+
+	  <h4 class="w3-center w3-text-red"><b>Wednesday, 15 January 2020</b></h4>
+
+	  
+	<tr class="w3-border">
+	  
+          <td class="w3-border">14:00
+	  </td>
+            <td style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                  <tr>
+                      <td style="padding: 5px"><b>Frank Schweitzer</b> | Chair of Systems Design, ETH Z&uuml;rich </a><br />
+		      <div class="w3-text-red" style="padding: 0pt" ><b>Opening </b></div>
+		      </td>
+		  </tr>
+		  
+	      </table>
+	    </td>
+	</tr>
+
+
+	  
+<!-- Session -->
+
+<tr class="w3-border">
+	  
+	  <td> 
+	  </td>
+		
+            <td style="padding: 0px">
+              <table class="w3-table w3-text-grey" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px">		    <b><h3>Biological systems</h3>
+		      <b />
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+	
+
+
+	
+	<!-- Bascompte -->
+	<tr class="w3-border">
+          <td class="w3-border w3-light-gray">14:30
+	  </td>
+          <td  style="padding: 0px">
+	                  <table class="w3-table" style="width: 100%;">
+                <tr>
+                  <td class="w3-light-gray" style="padding: 5px"><b>Jordi Bascompte</b> |  Dept. of Evolutionary Biology and Environmental Studies, University of Z&uuml;rich<br />
+		    <div class="w3-text-red" style="padding: 0pt" ><b>Resilience of mutualistic networks in the face of climate change</b></div>
+		    
+                    <button onclick="document.getElementById('abstract_bascompte').style.display='block'" class="w3-light-gray w3-button" style="padding: 0pt" >(Abstract)</button>
+                        <div id="abstract_bascompte" class="w3-modal w3-animate-opacity">
+                          <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-dark-blue"> 
+                              <span onclick="document.getElementById('abstract_bascompte').style.display='none'" 
+                              class="w3-button w3-large w3-display-topright">&times;</span>
+                              <h2>Abstract</h2>
+                            </header>
+                            <div class="w3-container">
+                              <p>
+				The mutualistic interactions between plants and the animals that pollinate them or disperse their seeds shape complex networks of mutual dependencies that can be regarded as the architecture of biodiversity. As a result of such interdependence, species extinctions induced by climate change may trigger coextinction cascades, thus driving extinct many more species than originally predicted by models of climate change. Recent work has shown a significant variability across pollination networks in plant extinction---and particularly the subsequent coextinction---rates, with much higher values in Mediterranean networks. While geographic location best predicts the probability of a plant species to be driven extinct by climate change, the local network of interactions best predicts subsequent coextinctions.  Importantly, incorporating species interactions into our assessments of the effects of climate change not only increases the pool of species most likely being driven extinct.  It also changes the way extant species are selected from the evolutionary and functional trees, with potential implications for the functioning and robustness of the resulting communities.
+			      </p>
+                            </div>
+                          </div>
+                        </div>
+                  </td>
+		</tr>
+	      </table>
+	      	      
+	    </td>
+	</tr>
+
+		<!-- Casiraghi -->
+	<tr class="w3-border">
+	  <td class="w3-border w3-light-gray">15:00
+	  </td>
+          <td class="w3-light-gray" style="padding: 0px">
+	    <table class="w3-table" style="width: 100%;">
+	                      <tr>
+				<td style="padding: 5px"><b>Giona Casiraghi</b> | Chair of Systems Design, ETH Z&uuml;rich<br />
+				
+				<div class="w3-light-gray w3-text-red" style="padding: 0pt" ><b>Resilience and control</b></div>
+				
+		                        <button onclick="document.getElementById('abstract_casiraghi).style.display='block'" class="w3-light-gray w3-button" style="padding: 0pt" >(Abstract)</button>
+                        <div id="abstract_casiraghi" class="w3-modal w3-animate-opacity">
+                          <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-dark-blue"> 
+                              <span onclick="document.getElementById('abstract_casiraghi).style.display='none'" 
+                              class="w3-button w3-large w3-display-topright">&times;</span>
+                              <h2>Abstract</h2>
+                            </header>
+                            <div class="w3-container">
+                              <p>
+				The investigation of resilience through complex networks has become the focus of multiple disciplines. Nevertheless, important questions remain still open. For example, how much does the completeness of data on species-species interactions affects the study of resilience in ecological systems? Driven by the insight that systems can be hardly studied in isolation, the study of resilience has progressed from the analysis of single-layer to that of multi-layer networks. However, ecological systems are most often represented as bipartite networks, consisting of mutualistic interactions, e.g., between plants and their pollinators. Such a representation reflects only the interlayer of a larger multi-layer network and ignores intralayer interactions. Robustness against co-extinction cascades thus stems from this bipartite representation, and the error made by neglecting intralayer interactions is unknown. By systematically analysing synthetic multi-layer networks, we show that robustness depends on how hubs and peripheral nodes of different layers are coupled together. Further examining how these hubs and peripheral nodes contribute to the robustness of a system, we are able to identify driver nodes that can be targeted to prevent drop-out cascades. We show that by specifying diverse strategies to control central and peripheral nodes, such drop-out cascades are significantly reduced, and robustness is increased.
+			      </p>
+			    </div>
+
+                          </div>
+                        </div>
+                  </td>
+                  </tr>
+	      </table>
+	  </td>
+	</tr>
+	
+	<!-- Mora -->
+	<tr class="w3-border">
+	  
+	  <td class="w3-border w3-light-gray">15:30
+	  </td>
+		
+            <td class="w3-light-gray" style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px"><b>Bernat Bramon Mora</b> | Plant Ecology Group, ETH Z&uuml;rich<br />
+		    <div class="w3-light-gray w3-text-red" style="padding: 0pt" ><b> Structure and dynamics of ecological communities: Comparing networks across space and time</b></div>
+		    
+                    <button onclick="document.getElementById('abstract_mora').style.display='block'" class="w3-light-gray w3-button" style="padding: 0pt" >(Abstract)</button>
+                        <div id="abstract_mora" class="w3-modal w3-animate-opacity">
+                          <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-dark-blue"> 
+                              <span onclick="document.getElementById('abstract_mora').style.display='none'" 
+                              class="w3-button w3-large w3-display-topright">&times;</span>
+                              <h2>Abstract</h2>
+                            </header>
+                            <div class="w3-container">
+                              <p> 
+Networks provide a simple way to synthesize the heterogeneous nature of ecological systems. They depict ecological communities as graphs of species and their interactions, and they have been extensively used in ecology to study topics such as community stability, resilience, biodiversity, and global change. Untangling the complexity encoded within these objects is, however, far from straightforward. For example, ecologists have often relied on the use of general network metrics and mathematical models to study the structure and dynamics of such communities, respectively. An alternative approach that has yet to be fully explored is to exhaustively compare these along ecological gradients or within time series. By comparing networks within a changing environment, one can understand how the structure and roles of different species vary and change under different pressures. In my work, I use a network-comparison technique—network alignment—as a way to study ecological communities and shed light on their underlying dynamics. Network alignment essentially identifies species with analogous “positions” across communities, providing a comprehensive conceptual mapping of the changes in the communities and their many components. This mapping allows me to compare the structure of networks across environments and over time, providing insights into how ecological communities are structured and how such structure changes over time.
+					      </p>
+                            </div>
+                          </div>
+                        </div>
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+
+	<!-- Coffee break -->
+
+<tr class="w3-border">
+	  
+	  <td class="w3-border">16:00
+	  </td>
+		
+            <td style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px">		    <b>Coffee and posters<b />
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+
+
+	  
+<!-- Session -->
+
+<tr class="w3-border">
+	  
+	  <td> 
+	  </td>
+		
+            <td style="padding: 0px">
+              <table class="w3-table w3-text-grey" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px">		    <b><h3>Spatial systems</h3>
+		      <b />
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+	
+
+
+
+		<!-- Stanini -->
+	<tr class="w3-border">
+	  
+	  <td class="w3-border w3-light-gray">16:30
+	  </td>
+		
+            <td class="w3-light-gray" style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px"><b>Michele Starnini</b> | ISI Foundation, Torino<br />
+		    <div class="w3-light-gray w3-text-red" style="padding: 0pt" >
+		      <b>The interconnected wealth of nations: Shock propagation on global trade-investment multiplex networks</b></div>
+		    
+                    <button onclick="document.getElementById('abstract_starnini').style.display='block'" class="w3-light-gray w3-button" style="padding: 0pt" >(Abstract)</button>
+                        <div id="abstract_starnini" class="w3-modal w3-animate-opacity">
+                          <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-dark-blue"> 
+                              <span onclick="document.getElementById('abstract_starnini').style.display='none'" 
+                              class="w3-button w3-large w3-display-topright">&times;</span>
+                              <h2>Abstract</h2>
+                            </header>
+                            <div class="w3-container">
+                              <p> 
+The increasing integration of world economies, which organize in complex multilayer networks of interactions, is one of the critical factors for the global propagation of economic crises. We adopt the network science approach to quantify shock propagation on the global trade-investment multiplex network. To this aim, we propose a model that couples a spreading dynamics, describing how economic distress propagates between connected countries, with an internal contagion mechanism, describing the spreading of such economic distress within a given country. At the local level, we find that the interplay between trade and financial interactions influences the vulnerabilities of countries to shocks. On a large scale, we find a simple linear relation between the relative magnitude of a shock in a country and its global impact on the whole economic system, albeit the strength of internal contagion is country-dependent and the inter-country propagation dynamics is non-linear. Interestingly, this systemic impact can be associated with intra-layer and inter-layer scale factors that we name network multipliers, that are independent of the magnitude of the initial shock. Our model sets-up a quantitative framework to stress-test the robustness of individual countries and of the world economy
+					      </p>
+                            </div>
+                          </div>
+                        </div>
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+
+
+		<!-- Verginer -->
+
+	<tr class="w3-border">
+	  
+	  <td class="w3-border w3-light-gray">17:00
+	  </td>
+		
+            <td class="w3-light-gray" style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px"><b>Luca Verginer</b> | Chair of Systems Design, ETH Z&uuml;rich<br />
+		    <div class="w3-light-gray w3-text-red" style="padding: 0pt" ><b>Scientists on the move and how cities benefit</b></div>
+		    
+                    <button onclick="document.getElementById('abstract_verginer').style.display='block'" class="w3-light-gray w3-button" style="padding: 0pt" >(Abstract)</button>
+                        <div id="abstract_verginer" class="w3-modal w3-animate-opacity">
+                          <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-dark-blue"> 
+                              <span onclick="document.getElementById('abstract_verginer').style.display='none'" 
+                              class="w3-button w3-large w3-display-topright">&times;</span>
+                              <h2>Abstract</h2>
+                            </header>
+                            <div class="w3-container">
+                              <p> 
+Global mobility and migration of scientists is a significant modern phenomenon with economic and political implications.
+The ability to attract and retain advanced human capital is a major source of competitive advantage in today's knowledge economy.
+This is true both at the national and the city level.
+Cities are becoming focal loci of economic and scientific activity, but the impact and importance of scientist mobility is under-researched mainly du to data limitations.
+
+To investigate, brain drain/circulation, the superior performance of global cities and systemic properties of global scientist mobility, we reconstruct the career trajectories of 3.7 million scientists moving between 5 thousand cities.
+We show, among other results that the superior scientific performance of global cities is fueled by a virtuous cycle of successful cities attracting successful researchers.
+We show this first through an econometric approach and most notably through a data-driven and empirically calibrated agent-based model (ABM).
+					      </p>
+                            </div>
+                          </div>
+                        </div>
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+
+      <tr class="w3-border">
+	  
+	  <td class="w3-border w3-light-gray">17:30
+	  </td>
+		
+            <td class="w3-light-gray" style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px"><b>Giovanni Sansavini</b> | Reliability and Risk Engineering, ETH Z&uuml;rich<br />
+		    <div class="w3-light-gray w3-text-red" style="padding: 0pt" >
+		      <b>Engineering Energy Networks Facing Global Transition: From Predicting Cascading Failures to Optimizing System Safety</b>
+		    </div>
+		    
+                    <button onclick="document.getElementById('abstract_sansavini').style.display='block'" class="w3-light-gray w3-button" style="padding: 0pt" >(Abstract)</button>
+                        <div id="abstract_sansavini" class="w3-modal w3-animate-opacity">
+                          <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-dark-blue"> 
+                              <span onclick="document.getElementById('abstract_sansavini').style.display='none'" 
+                              class="w3-button w3-large w3-display-topright">&times;</span>
+                              <h2>Abstract</h2>
+                            </header>
+                            <div class="w3-container">
+                              <p> 
+Aiming at a sustainable energy production and at securing their energy supply, many countries are about to transition from a fossil-dominated to a green energy mix encompassing sunlight, mechanical energy and heat together with fossil and synthetic fuels. At the same time, the energy infrastructure is evolving from a collection of independently built, isolated energy carrier networks towards globally-integrated multi-energy systems. The integration of networks is clearly beneficial in view of designing optimal sustainable energy systems, but their heavily interconnected nature makes them vulnerable to cascading failures with potentially catastrophic consequences. This talk addresses the grand challenges and presents the methodological developments necessary to guide the evolution of energy infrastructure through vulnerability-based evaluations. They encompass (i) the development of high-fidelity, efficient mathematical models for quantifying the risk of cascading failures in power systems; (ii) modeling interdependent electric and gas networks and quantifying the risks to their safe operations in renewable energy infrastructures; (iii) understanding the impact of the water-energy nexus on electrical energy conversion and mitigating its effect in the face of climate change; (iv) developing and validating early warning indicators of critical transitions and fault diagnosis tools in complex dynamical systems. Aside from presenting recent methodological developments, the future research challenges related to the engineering of resilient energy networks are also discussed.
+					      </p>
+                            </div>
+                          </div>
+                        </div>
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+
+	<tr class="w3-border">
+          <td class="w3-border">18:00
+	  </td>
+            <td style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                  <tr>
+                      <td style="padding: 5px">
+		      <div class="w3-text-red" style="padding: 0pt" ><b>End </b></div>
+		      </td>
+		  </tr>
+		  
+	      </table>
+	    </td>
+	</tr>
+
+      </table>
+    </div>
+ </div>
+    
+ <div class="w3-container w3-padding-64 w3-Indigo w3-grayscale-min" id="agenda">
+    <div class="w3-content">
+
+      <table class="w3-table" style="width: 80%; margin:auto;" >
+	
+	<tr class="w3-border">
+
+	  <h4 class="w3-center w3-text-red"><b>Thursday, 16 January 2020</b></h4>
+
+	  
+<!-- Session -->
+
+<tr class="w3-border">
+	  
+	  <td> 
+	  </td>
+		
+            <td style="padding: 0px">
+              <table class="w3-table w3-text-grey" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px">		    <b><h3>Social systems</h3>
+		      <b />
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+	
+
+	  
+      <!-- Doerfler -->
+
+      <tr class="w3-border">
+
+      
+	  <td class="w3-border w3-light-gray">09:00
+	  </td>
+		
+            <td class="w3-light-gray" style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px"><b>Florian Dörfler</b> | Automatic Control Laboratory, ETH Z&uuml;rich<br />
+		    <div class="w3-light-gray w3-text-red" style="padding: 0pt" >
+		      <b>Game theoretical inference of human behavior in social networks</b>
+		    </div>
+		    
+                    <button onclick="document.getElementById('abstract_doerfler').style.display='block'" class="w3-light-gray w3-button" style="padding: 0pt" >(Abstract)</button>
+                        <div id="abstract_doerfler" class="w3-modal w3-animate-opacity">
+                          <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-dark-blue"> 
+                              <span onclick="document.getElementById('abstract_doerfler').style.display='none'" 
+                              class="w3-button w3-large w3-display-topright">&times;</span>
+                              <h2>Abstract</h2>
+                            </header>
+                            <div class="w3-container">
+                              <p> 
+Social networks emerge as the result of actors’ linking decisions. We propose a novel game-theoretical model of socio-strategic network formation on directed weighted graphs, with continuous action spaces, in which every actors’ benefit is a parametric trade-off between centrality measure, brokerage opportunities, clustering coefficient, and sociological network patterns. Our objective is to infer the individuals' behavior from the network structure. Our theoretical analysis is based on variational inequalities and confirms results known for homogeneous rational agents and specific network motifs studied previously in isolation, yet it enables to precisely quantify the trade-offs in the space of user preferences. To deal with complex networks of heterogeneous and irrational actors, we construct a statistical behavior estimation method whose goal is to learn the parameters of the payoff functions constructing an inverse optimization problem by means of the equilibrium condition. In other words, it provides the most rational estimate (with confidence bounds analysis) of the heterogeneous individual parameters that can be deduced from an observed equilibrium state of the network. We provide evidence that our results are consistent with empirical, historical, and sociological observations on real-world data-sets. Furthermore, our method offers sociological and strategic interpretations of random network models, e.g., preferential attachment and small-world networks. This is joint work with Nicolò Pagan.
+			      </p>
+                            </div>
+                          </div>
+                        </div>
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+
+      <!-- Vaccario -->
+
+      <tr class="w3-border">
+
+	  <td class="w3-border w3-light-gray">09:30
+	  </td>
+		
+            <td class="w3-light-gray" style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px"><b>Giacomo Vaccario</b> | Chair of Systems Design, ETH Z&uuml;rich<br />
+		    <div class="w3-light-gray w3-text-red" style="padding: 0pt" >
+		      <b>Resilient cooperation: Mechanism design in an agent-based model</b>
+		    </div>
+		    
+                    <button onclick="document.getElementById('abstract_vaccario').style.display='block'" class="w3-light-gray w3-button" style="padding: 0pt" >(Abstract)</button>
+                        <div id="abstract_vaccario" class="w3-modal w3-animate-opacity">
+                          <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-dark-blue"> 
+                              <span onclick="document.getElementById('abstract_vaccario').style.display='none'" 
+                              class="w3-button w3-large w3-display-topright">&times;</span>
+                              <h2>Abstract</h2>
+                            </header>
+                            <div class="w3-container">
+                              <p> 
+Human societies rely on cooperating individuals.
+But cooperation is an unstable system state because it is susceptible to exploitation by defectors.
+To improve the resilience of cooperating systems, mechanism design, i.e.  the targeted influence of individuals, plays an important role.
+A prominent, yet costly measure is the punishment of individuals that do not cooperate. In contrast to this negative influence, we propose a mechanism that rewards cooperating individuals and study its influence in an agent-based model.
+Agents interact in a game-theoretical setting and accumulate their payoffs as individual wealth. 
+Cooperating agents receive a varying bonus from a central authority, e.g. their government. 
+The costs incurred are compensated by a taxation of the agent's wealth and a subsequent redistribution mechanism, that also covers the costs of the government.
+Part of the governmental effort is to detect those agents that should not receive a bonus because they defect.
+While it is obvious that above a critical bonus level cooperation can be induded, it is less clear whether the government is able to pay this amount.
+High levels of cooperation imply payments to many agents, i.e. decreasing bonuses, and a larger susceptibility to switch to defection.
+Low levels of cooperation, on the other hand, result in larger bonuses needed to even maintain this level.
+We demonstrate that a suitable combination of taxation scheme, redistribution mechanism and detection of defectors is indeed able to increase the resilience of a cooperating system. This also includes to regain a  cooperating state once it was lost.
+					      </p>
+                            </div>
+                          </div>
+                        </div>
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+
+      <!-- Scholtes -->
+
+      <tr class="w3-border">
+
+      
+	  <td class="w3-border w3-light-gray">10:00
+	  </td>
+		
+            <td class="w3-light-gray" style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px"><b>Ingo Scholtes</b> | Data Analytics Group, University of Wuppertal<br />
+		    <div class="w3-light-gray w3-text-red" style="padding: 0pt" >
+		      <b>Networks in Space and Time</b>
+		    </div>
+		    
+                    <button onclick="document.getElementById('abstract_scholtes').style.display='block'" class="w3-light-gray w3-button" style="padding: 0pt" >(Abstract)</button>
+                        <div id="abstract_scholtes" class="w3-modal w3-animate-opacity">
+                          <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-dark-blue"> 
+                              <span onclick="document.getElementById('abstract_scholtes').style.display='none'" 
+                              class="w3-button w3-large w3-display-topright">&times;</span>
+                              <h2>Abstract</h2>
+                            </header>
+                            <div class="w3-container">
+                              <p>
+lore ipsum 
+					      </p>
+                            </div>
+                          </div>
+                        </div>
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+
+
+	<!-- Coffee break -->
+
+<tr class="w3-border">
+	  
+	  <td class="w3-border">10:30
+	  </td>
+		
+            <td style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px">		    <b>Coffee and posters<b />
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+	
+
+<!-- Session 
+
+<tr class="w3-border">
+	  
+	  <td> 
+	  </td>
+		
+            <td style="padding: 0px">
+              <table class="w3-table w3-text-grey" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px">		    <b><h3>Social systems</h3>
+		      <b />
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+	
+-->
+
+      
+      <!-- Garcia -->
+
+      <tr class="w3-border">
+
+
+		  <td class="w3-border w3-light-gray">11:00
+	  </td>
+		
+            <td class="w3-light-gray" style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px"><b>David Garcia</b> | Section for Science of Complex Systems, Medical University of Vienna<br />
+		    <div class="w3-light-gray w3-text-red" style="padding: 0pt" >
+		      <b>Hyperpolarization  dynamics in social systems</b>
+		    </div>
+		    
+                    <button onclick="document.getElementById('abstract_garcia').style.display='block'" class="w3-light-gray w3-button" style="padding: 0pt" >(Abstract)</button>
+                        <div id="abstract_garcia" class="w3-modal w3-animate-opacity">
+                          <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-dark-blue"> 
+                              <span onclick="document.getElementById('abstract_garcia').style.display='none'" 
+                              class="w3-button w3-large w3-display-topright">&times;</span>
+                              <h2>Abstract</h2>
+                            </header>
+                            <div class="w3-container">
+                              <p>
+Polarization is threatening the stability of democratic societies. Opinion dynamics research has focused on explaining how opinion extremeness
+emerges in an issue, but this overlooks the correlation between different policy issues observed in empirical data. We explain the emergence of
+hyperpolarization, i.e. the combination of extremeness and correlation between issues, through an agent-based model based on the theory of
+cognitive balance. After calibrating the model with empirical data from the 2016 US National Election Survey, we show that our model is the first
+to reproduce hyperpolarization without additional complex network structures or preexisting correlations between opinions. In this line, we
+quantitatively captured how social media interaction is driven towards polarization using the Twitter backlash to the EAT-Lancet report as an example.
+Large datasets of social media interaction bear the promise to empirically support opinion dynamics models, bridging the gap between computational
+theory and empirical data analysis at scale.
+					      </p>
+                            </div>
+                          </div>
+                        </div>
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+      </tr>
+      
+      <!-- Brandenberger -->
+
+      <tr class="w3-border">
+
+	  <td class="w3-border w3-light-gray">11:30
+	  </td>
+		
+            <td class="w3-light-gray" style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px"><b>Laurence Brandenberger</b> | Chair of Systems Design, ETH Z&uuml;rich<br />
+		    <div class="w3-light-gray w3-text-red" style="padding: 0pt" >
+		      <b>Measuring political polarization in the Swiss parliament</b>
+		    </div>
+		    
+                    <button onclick="document.getElementById('abstract_brandenberger').style.display='block'" class="w3-light-gray w3-button" style="padding: 0pt" >(Abstract)</button>
+                        <div id="abstract_brandenberger" class="w3-modal w3-animate-opacity">
+                          <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-dark-blue"> 
+                              <span onclick="document.getElementById('abstract_brandenberger').style.display='none'" 
+                              class="w3-button w3-large w3-display-topright">&times;</span>
+                              <h2>Abstract</h2>
+                            </header>
+                            <div class="w3-container">
+                              <p>
+				A wave of polarization is drifting across western democracies. This political polarization wave is theorized to be driven by an increased competition among parties and their desire or need to differentiate themselves from each other. Empirical evidence shows that the Swiss political landscape is no exception to this trend.
+In the Swiss multi-party system, the rise of the right party, SVP, is seen as the tipping point when the Swiss political system moved away from consensual party collaboration to party competition, driving polarization in the process.  It is hypothesized that the SVP has gained power by bonding together, increasing their party coherence and presenting a more professional and united front.
+We examine historical levels of political polarization and conflict in the Swiss parliament. Focusing on cooperative interactions among members of parliament from the same or different parties, we analyze which parliamentary bills (dt. Geschäfte) were a source of parliamentary strive between (and within) parties. In the process, we show which parties have increased their party unity over time and how their internal development affects cross-party collaborations. Our analysis is based on a new longitudinal data set on the proceedings of the Swiss Federal Assembly and includes over 15,000 legislative bills and over 300,000 support signatures among members of parliament and spans over 30 years.
+					      </p>
+                            </div>
+                          </div>
+                        </div>
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+
+      <!-- Lomi -->
+
+      <tr class="w3-border">
+
+
+	  <td class="w3-border w3-light-gray">12:00
+	  </td>
+		
+            <td class="w3-light-gray" style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                <tr>
+                  <td style="padding: 5px"><b>Alessandro Lomi</b> | Institute of Computational Science, University of Italian Switzerland, Lugano<br />
+		    <div class="w3-light-gray w3-text-red" style="padding: 0pt" >
+		      <b>Positive and negative relations in the production of contentious Wikipedia articles</b>
+		    </div>
+		    
+                    <button onclick="document.getElementById('abstract_lomi').style.display='block'" class="w3-light-gray w3-button" style="padding: 0pt" >(Abstract)</button>
+                        <div id="abstract_lomi" class="w3-modal w3-animate-opacity">
+                          <div class="w3-modal-content w3-card-4">
+                            <header class="w3-container w3-dark-blue"> 
+                              <span onclick="document.getElementById('abstract_lomi').style.display='none'" 
+                              class="w3-button w3-large w3-display-topright">&times;</span>
+                              <h2>Abstract</h2>
+                            </header>
+                            <div class="w3-container">
+                              <p>
+				lore ipsum
+					      </p>
+                            </div>
+                          </div>
+                        </div>
+                  </td>
+                  </tr>
+	      </table>
+	    </td>
+	      </tr>
+
+	<tr class="w3-border">
+          <td class="w3-border">12:30
+	  </td>
+            <td style="padding: 0px">
+              <table class="w3-table" style="width: 100%;">
+                  <tr>
+                      <td style="padding: 5px"><b>Frank Schweitzer</b> | Chair of Systems Design, ETH Z&uuml;rich<br />
+		      <div class="w3-text-red" style="padding: 0pt" ><b>Closing </b></div>
+		      </td>
+		  </tr>
+		  
+	      </table>
+	    </td>
+	</tr>
+
+
+
+      </table>
+
+                  </td>
+                  </tr>
+	      </table>
+
+      
+    </div>
+ </div>
+
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-Indigo w3-grayscale-min w3-center w3-wide" id="rsvp">
+   <div class="w3-content">
+  <h2 class="w3-text-red"><b>Registration</b></h2>
+  <p class="w3">Participation is free but seating is limited. <br> To facilitate our planning, kindly indicate your attendance using this form:
+    <br />
+<form method="GET" enctype="text/plain" id="rsvpform">
+<table class="w3-table"  style="width: 80%; margin:auto;">  
+  <tr>
+    <td>first name:</td>
+    <td><input type="text" id="firstname" style="width:250px;"></td>
+  </tr>
+  <tr>
+    <td>last name:</td>
+    <td><input type="text" id="lastname" style="width:250px;"></td>
+  </tr>
+  <tr>
+      <td>institution (optional):</td>
+      <td><input type="text" id="institution" style="width:250px;"></td>
+    </tr>
+  <tr>
+    <td></td><td><a href class="w3-button w3-light-grey w3-block" id="rsvpbtn" style="width:250px;">Submit registration</a></td>
+  </tr>
+  <tr>
+    
+    <td></td>
+    
+  </tr>
+</table>
+</form>
+<script>
+   $( "#rsvpbtn" ).click(function( event ) {
+    var firstname = $('#firstname').val();
+    var lastname  = $('#lastname').val();
+    var institution = $('#institution').val();
+    if (institution == '')
+      institution = 'n/a';
+    if (firstname == '' || lastname == '')
+    {
+      alert('Please enter your first and last name!');
+      event.preventDefault();
+    }
+    else
+      $("#rsvpbtn").attr('href', 'mailto:fschweitzer@ethz.ch?subject=Registration%20for%20Symposium&body=Dear%20organizers,%0D%0A%0D%0AI%20plan%20to%20attend%20the%20symposium.%20My%20registration%20data%20are:%0D%0A%0D%0AFirstname:%20%20' + firstname + '%0D%0ALastname:%20%20%20' + lastname + '%0D%0AInstitution:%20%20' + institution + '%0D%0A%0D%0AKind%20regards,%0D%0A%0D%0A' + firstname + '%20' + lastname);
+    });
+  </script>
+<p>Note: <i>Your registration will be sent via E-Mail. No data are submitted to the server.</i></p>
+</div>
+</div>
+
+		  
+</body>
+</html>
