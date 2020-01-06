@@ -735,19 +735,19 @@ We examine historical levels of political polarization and conflict in the Swiss
    $( "#rsvpbtn" ).click(function( event ) {
     var firstname = $('#firstname').val();
     var lastname  = $('#lastname').val();
-    var institution = $('#institution').val();
-    if (institution == '')
-      institution = 'n/a';
+    var emailaddress = $('#emailaddress').val();
+    if (emailaddress == '')
+      emailaddress = 'n/a';
     if (firstname == '' || lastname == '')
     {
       alert('Please enter your first and last name!');
       event.preventDefault();
     }
     else
-      $("#rsvpbtn").attr('href', 'mailto:fschweitzer@ethz.ch?subject=Registration%20for%20Symposium&body=Dear%20organizers,%0D%0A%0D%0AI%20plan%20to%20attend%20the%20symposium.%20My%20registration%20data%20are:%0D%0A%0D%0AFirstname:%20%20' + firstname + '%0D%0ALastname:%20%20%20' + lastname + '%0D%0AInstitution:%20%20' + institution + '%0D%0A%0D%0AKind%20regards,%0D%0A%0D%0A' + firstname + '%20' + lastname);
+      $("#rsvpbtn").attr('href', 'mailto:fschweitzer@ethz.ch?subject=Registration%20for%20Symposium&body=Dear%20organizers,%0D%0A%0D%0AI%20plan%20to%20attend%20the%20symposium.%20My%20registration%20data%20are:%0D%0A%0D%0AFirstname:%20%20' + firstname + '%0D%0ALastname:%20%20%20' + lastname + '%0D%0Aemail:%20%20' + emailaddress + '%0D%0A%0D%0AKind%20regards,%0D%0A%0D%0A' + firstname + '%20' + lastname);
     });
   </script>
-<p>Note: <i>Your registration will be sent via E-Mail. No data are submitted to the server.</i></p>
+<p>Note: <i>If you provide your E-Mail address, we will send you a link to download the Program/Abstracts (PDF).</i></p>
 </div>
 </div>
 
